@@ -1,0 +1,27 @@
+.header {
+  background-color: #9e33ff;
+  padding: 20px 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  align-items: center;
+  margin-bottom: 50px;
+
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &_title {
+    color: whitesmoke;
+    font-weight: 600;
+  }
+
+  &_json-placeholder-link {
+    color: whitesmoke;
+    transition: 0.15s ease-out;
+
+    &:hover {
+      color: #e5e5e5;
+    }
+  }
+}

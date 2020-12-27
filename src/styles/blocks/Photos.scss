@@ -1,0 +1,28 @@
+.photos {
+  &_title {
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+
+  &_box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &_photo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    flex-basis: calc(25% - 20px);
+
+    &-img {
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    &-title {
+      text-align: center;
+    }
+  }
+}
